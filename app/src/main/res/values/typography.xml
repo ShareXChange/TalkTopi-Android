@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TalkTopiAndroid.Display">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/typography_display</item>
+        <item name="lineHeight">@dimen/typography_line_height_display</item>
+    </style>
+
+
+    <style name="Theme.TalkTopiAndroid.HeadLine1">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/typography_h1</item>
+        <item name="lineHeight">@dimen/typography_line_height_h1</item>
+    </style>
+
+    <style name="Theme.TalkTopiAndroid.HeadLine2">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/typography_h2</item>
+        <item name="lineHeight">@dimen/typography_line_height_h2</item>
+    </style>
+
+    <style name="Theme.TalkTopiAndroid.HeadLine3">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/typography_h3</item>
+        <item name="lineHeight">@dimen/typography_line_height_h3</item>
+    </style>
+
+    <style name="Theme.TalkTopiAndroid.HeadLine4">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/typography_h4</item>
+        <item name="lineHeight">@dimen/typography_line_height_h4</item>
+    </style>
+
+    <style name="Theme.TalkTopiAndroid.HeadLine5">
+        <item name="fontFamily">@font/inter_semi_bold</item>
+        <item name="android:textSize">@dimen/typography_h5</item>
+        <item name="lineHeight">@dimen/typography_line_height_h5</item>
+    </style>
+
+    <style name="Theme.TalkTopiAndroid.HeadLine6">
+        <item name="fontFamily">@font/inter_semi_bold</item>
+        <item name="android:textSize">@dimen/typography_h6</item>
+        <item name="lineHeight">@dimen/typography_line_height_h6</item>
+    </style>
+
+    <style name="Theme.TalkTopiAndroid.Headline8">
+        <item name="fontFamily">@font/inter_semi_bold</item>
+        <item name="android:textSize">@dimen/typography_h8</item>
+        <item name="lineHeight">@dimen/typography_h8</item>
+    </style>
+
+    <style name="Theme.TalkTopiAndroid.SubTitle1">
+        <item name="fontFamily">@font/inter_semi_bold</item>
+        <item name="android:textSize">@dimen/typography_s1</item>
+        <item name="lineHeight">@dimen/typography_line_height_s1</item>
+    </style>
+
+    <style name="Theme.TalkTopiAndroid.Body1">
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">@dimen/typography_b1</item>
+        <item name="lineHeight">@dimen/typography_line_height_b1</item>
+    </style>
+
+    <style name="Theme.TalkTopiAndroid.Body2">
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">@dimen/typography_b2</item>
+        <item name="lineHeight">@dimen/typography_line_height_b2</item>
+    </style>
+
+    <style name="Theme.TalkTopiAndroid.Body3">
+        <item name="fontFamily">@font/inter_medium</item>
+        <item name="android:textSize">@dimen/typography_b3</item>
+        <item name="lineHeight">@dimen/typography_line_height_b3</item>
+    </style>
+
+    <style name="Theme.TalkTopiAndroid.Caption">
+        <item name="fontFamily">@font/inter_medium</item>
+        <item name="android:textSize">@dimen/typography_caption</item>
+        <item name="lineHeight">@dimen/typography_line_height_caption</item>
+    </style>
+
+</resources>

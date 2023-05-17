@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  typography size  -->
+
+    <dimen name="typography_display">72dp</dimen>
+    <dimen name="typography_h1">56dp</dimen>
+    <dimen name="typography_h2">40dp</dimen>
+    <dimen name="typography_h3">32dp</dimen>
+    <dimen name="typography_h4">24dp</dimen>
+    <dimen name="typography_h5">20dp</dimen>
+    <dimen name="typography_h6">16dp</dimen>
+    <dimen name="typography_h7">14dp</dimen>
+    <dimen name="typography_h8">12dp</dimen>
+
+    <dimen name="typography_s1">20dp</dimen>
+
+    <dimen name="typography_b1">16dp</dimen>
+    <dimen name="typography_b2">14dp</dimen>
+    <dimen name="typography_b3">12dp</dimen>
+
+    <dimen name="typography_caption">8dp</dimen>
+
+
+    <!--  typography line height size  -->
+
+    <dimen name="typography_line_height_display">108dp</dimen>
+    <dimen name="typography_line_height_h1">56dp</dimen>
+    <dimen name="typography_line_height_h2">40dp</dimen>
+    <dimen name="typography_line_height_h3">48dp</dimen>
+    <dimen name="typography_line_height_h4">36dp</dimen>
+    <dimen name="typography_line_height_h5">32dp</dimen>
+    <dimen name="typography_line_height_h6">24dp</dimen>
+    <dimen name="typography_line_height_h7">20dp</dimen>
+    <dimen name="typography_line_height_h8">16dp</dimen>
+
+    <dimen name="typography_line_height_s1">32dp</dimen>
+
+    <dimen name="typography_line_height_b1">24dp</dimen>
+    <dimen name="typography_line_height_b2">20dp</dimen>
+    <dimen name="typography_line_height_b3">16dp</dimen>
+
+    <dimen name="typography_line_height_caption">8dp</dimen>
+</resources>
