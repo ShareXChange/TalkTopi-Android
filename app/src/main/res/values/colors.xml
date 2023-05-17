@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <color name="gray_100">#FF0E0E12</color>
+    <color name="gray_80">#FF1C1C23</color>
+    <color name="gray_70">#FF353542</color>
+    <color name="gray_60">#FF4E4E61</color>
+    <color name="gray_50">#FF666680</color>
+    <color name="gray_40">#FF83839C</color>
+    <color name="gray_30">#FFA2A2B5</color>
+    <color name="gray_20">#FFC1C1CD</color>
+    <color name="gray_10">#FFE0E0E6</color>
+
+    <color name="primary">#FF4AD7B7</color>
+    <color name="primary_10">#FF9EE9D8</color>
+    <color name="primary_20">#FF81E3CD</color>
+    <color name="primary_30">#FF64DCC1</color>
+    <color name="primary_40">#FF47D6B5</color>
+    <color name="primary_50">#FF2DCCA8</color>
+    <color name="primary_60">#FF26AF90</color>
+    <color name="primary_70">#FF209278</color>
+    <color name="primary_80">#FF197460</color>
+    <color name="primary_90">#FF135748</color>
+    <color name="primary_100">#FF0C3A30</color>
+
+    <color name="accent_s_100">#FFD95319</color>
+    <color name="accent_s_50">#FFFF6B3D</color>
+    <color name="accent_s_10">#FFFFA382</color>
+
+    <color name="accent_p_100">#FF4A4E8D</color>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
