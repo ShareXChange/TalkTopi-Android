@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- padding -->
+    <dimen name="sign_in_horizontal_padding">20dp</dimen>
+
+    <!--  icon size  -->
+    <dimen name="icon_default">24dp</dimen>
+
     <!--  typography size  -->
 
     <dimen name="typography_display">72dp</dimen>
