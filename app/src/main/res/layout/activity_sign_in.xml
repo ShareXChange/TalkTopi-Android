@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_start_padding"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="@dimen/sign_in_horizontal_padding" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_end_padding"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/sign_in_horizontal_padding" />
+
+    <LinearLayout
+        android:id="@+id/ln_top_back_arrow_bar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="@id/gl_end_padding"
+        app:layout_constraintStart_toStartOf="@id/gl_start_padding"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:layout_width="@dimen/icon_default"
+            android:layout_height="@dimen/icon_default"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_back_arrow_24" />
+
+        <TextView
+            style="@style/Theme.TalkTopiAndroid.HeadLine6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/sign_in" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_id"
+        style="@style/Theme.TalkTopiAndroid.HeadLine7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/id"
+        app:layout_constraintStart_toStartOf="@id/gl_start_padding"
+        app:layout_constraintTop_toBottomOf="@+id/ln_top_back_arrow_bar" />
+
+    <EditText
+        android:id="@+id/et_id"
+        style="@style/Theme.TalkTopiAndroid.Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/style_edit_text"
+        android:hint="@string/msg_sign_in_input_id"
+        app:layout_constraintEnd_toEndOf="@id/gl_end_padding"
+        app:layout_constraintStart_toStartOf="@id/gl_start_padding"
+        app:layout_constraintTop_toBottomOf="@id/tv_id" />
+
+    <TextView
+        android:id="@+id/tv_password"
+        style="@style/Theme.TalkTopiAndroid.HeadLine7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/password"
+        app:layout_constraintStart_toStartOf="@id/gl_start_padding"
+        app:layout_constraintTop_toBottomOf="@+id/et_id" />
+
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/Theme.TalkTopiAndroid.Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/style_edit_text"
+        android:hint="@string/msg_sign_in_input_password"
+        app:layout_constraintEnd_toEndOf="@id/gl_end_padding"
+        app:layout_constraintStart_toStartOf="@id/gl_start_padding"
+        app:layout_constraintTop_toBottomOf="@id/tv_password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.TalkTopiAndroid.Body3"
+        android:text="@string/msg_auto_login_visible"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toTopOf="@+id/cb_auto_login"
+        app:layout_constraintBottom_toBottomOf="@id/cb_auto_login"
+        app:layout_constraintStart_toEndOf="@+id/cb_auto_login"/>
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cb_auto_login"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="20dp"
+        android:buttonTint="@color/primary"
+        app:layout_constraintStart_toStartOf="@+id/gl_start_padding"
+        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+    <TextView
+        android:id="@+id/tv_login_error_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인 도중 문제가 생겼나요?"
+        style="@style/Theme.TalkTopiAndroid.Body3"
+        android:textColor="@color/gray_50"
+        android:layout_marginTop="28dp"
+        app:layout_constraintTop_toBottomOf="@id/cb_auto_login"
+        app:layout_constraintStart_toStartOf="@id/gl_start_padding"
+        app:layout_constraintEnd_toEndOf="@id/gl_end_padding"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/gl_start_padding"
+        app:layout_constraintEnd_toEndOf="@id/gl_end_padding"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tv_login_error_title">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/here_underline"
+            style="@style/Theme.TalkTopiAndroid.Headline8"
+            android:textColor="@color/primary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="을 눌러 해결해보세요!"
+            style="@style/Theme.TalkTopiAndroid.Body3"
+            android:textColor="@color/gray_50" />
+    </LinearLayout>
+
+    <Button
+        style="@style/Theme.TalkTopiAndroid.Body2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_square_mint_button"
+        android:text="로그인"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

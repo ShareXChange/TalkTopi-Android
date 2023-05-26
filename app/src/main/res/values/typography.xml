@@ -44,6 +44,12 @@
         <item name="lineHeight">@dimen/typography_line_height_h6</item>
     </style>
 
+    <style name="Theme.TalkTopiAndroid.HeadLine7">
+        <item name="fontFamily">@font/inter_semi_bold</item>
+        <item name="android:textSize">@dimen/typography_h7</item>
+        <item name="lineHeight">@dimen/typography_h7</item>
+    </style>
+
     <style name="Theme.TalkTopiAndroid.Headline8">
         <item name="fontFamily">@font/inter_semi_bold</item>
         <item name="android:textSize">@dimen/typography_h8</item>

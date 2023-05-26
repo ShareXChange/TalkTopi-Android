@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">TalkTopi-Android</string>
+
+    <!--  용어 정의  -->
+    <string name="sign_in">로그인</string>
+    <string name="sign_up">회원가입</string>
+
+    <string name="id">아이디</string>
+    <string name="password">비밀번호</string>
+
+    <string name="msg_sign_in_input_id">아이디를 입력해주세요.</string>
+    <string name="msg_sign_in_input_password">비밀번호를 입력해주세요.</string>
+
+    <string name="msg_auto_login_visible">자동 로그인 여부</string>
+    <string name="msg_"/>
+    <string name="here_underline"><u>이곳</u></string>
+
 </resources>
