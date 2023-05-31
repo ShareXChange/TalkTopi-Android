@@ -16,4 +16,10 @@ class IntroActivity : AppCompatActivity() {
             startActivity(this)
         }
     }
+
+    fun onClickSignIn(view: View) {
+        Intent(applicationContext, SignInActivity::class.java).apply {
+            startActivity(this)
+        }
+    }
 }

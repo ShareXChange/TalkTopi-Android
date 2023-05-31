@@ -38,6 +38,7 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/style_round_mint_button"
         android:text="로그인하기"
+        android:onClick="onClickSignIn"
         app:layout_constraintBottom_toTopOf="@+id/btn_sign_up"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

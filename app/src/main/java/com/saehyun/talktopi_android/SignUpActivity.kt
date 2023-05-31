@@ -50,7 +50,7 @@ class SignUpActivity : AppCompatActivity() {
     }
 
     private fun navigateToMain() {
-        Intent(this, IntroActivity::class.java).apply {
+        Intent(this, MainActivity::class.java).apply {
             startActivity(this)
         }
     }

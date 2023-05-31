@@ -141,11 +141,13 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/sign_in_btn_next"
         style="@style/Theme.TalkTopiAndroid.Body2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/style_square_mint_button"
         android:text="@string/next"
+        android:onClick="navigateToMain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
