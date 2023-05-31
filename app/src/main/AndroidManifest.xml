@@ -13,16 +13,16 @@
         android:theme="@style/Theme.TalkTopiAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".feature.main.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUpActivity"
+            android:name=".feature.sign_up.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".SignInActivity"
+            android:name=".feature.sign_in.SignInActivity"
             android:exported="false" />
         <activity
-            android:name=".IntroActivity"
+            android:name=".feature.intro.IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
