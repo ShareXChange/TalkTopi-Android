@@ -53,6 +53,7 @@
         android:layout_marginBottom="60dp"
         android:background="@drawable/style_round_outline_mint_button"
         android:text="회원가입하기"
+        android:onClick="onClickSignUp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
